@@ -21,12 +21,9 @@ export const counterSlice = createSlice({
     },
   },
 })
-//state = 0 / action = payload としてpassされる　variableのこと
+//state = 0 / action = payload としてpassされる　variableのこと(valueはObjectもpass可能)
 //this is passed 33 as payload on App.js file! 
 // dispatch(incrementByAmount(33))
-
-
-
 
 
 // Action creators are generated for each case reducer function
